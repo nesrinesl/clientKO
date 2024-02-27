@@ -1,0 +1,99 @@
+/* .profile-container {
+    margin: 150px 50px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    color: red;
+    font-family: fantasy;
+  }
+  
+  .profile-sections {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-card {
+    flex: 1;
+  }
+  
+  .profile-card-content {
+    border-color: red;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .profile-card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image-label {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profile-image-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .profile-image {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .user-details {
+    flex: 1;
+  }
+  
+  .user-name,
+  .user-last-name {
+    margin-bottom: 5px;
+  }
+  
+  .user-email {
+    margin-bottom: 0;
+  }
+  
+  .actions-section {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .actions-card {
+    border-color: brown;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .actions-card-body {
+    text-align: center;
+  }
+  
+  .actions-title {
+    color: #8B4513;
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+  }
+  
+  .my-recipes-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .upload-button-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+   */

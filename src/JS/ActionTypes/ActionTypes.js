@@ -1,0 +1,24 @@
+// recipe
+export const LOAD_RECIPE = "LOAD_RECIPE";
+export const SUCCESS_RECIPE = "SUCCESS_RECIPE";
+export const FAIL_RECIPE = "FAIL_RECIPE";
+export const ONE_RECIPE = "ONE_RECIPE";
+
+
+//auth actionTupe
+export const LOAD_USER="LOAD_USER"
+export const REGISTER_USER="REGISTER_USER"
+export const LOGIN_USER="LOGIN_USER"
+export const LOGOUT_USER="LOGOUT_USER"
+export const CURRENT_USER="CURRENT_USER"
+export const FAIL_USER="FAIL_USER"
+//tostify
+export const SUCCESS_USER = "SUCCESS_USER"
+export const CLEAR_ERRORS_USER = "CLEAR_ERRORS_USER"
+export const CLEAR_SUCCESS_USER = "CLEAR_SUCCESS_USER"
+
+
+// types.js
+
+export const UPDATE_PROFILE_IMAGE_SUCCESS = 'UPDATE_PROFILE_IMAGE_SUCCESS';
+export const UPDATE_PROFILE_IMAGE_FAIL = 'UPDATE_PROFILE_IMAGE_FAIL';

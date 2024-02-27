@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  background-image: url("c:\Users\nisso\Downloads\slanted-gradient (1).png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.edit-recipe-container {
+  margin-top: 200px;
+  padding: 20px;
+}
+
+.edit-recipe-title {
+  color: rgb(253, 244, 244);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+.edit-recipe-input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-recipe-input:focus {
+  outline: none;
+}
+
+.edit-recipe-buttons {
+  margin-top: 20px;
+}

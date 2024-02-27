@@ -1,0 +1,159 @@
+/* CSS for Home component */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white; /* Changed text color to white */
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.intro-text {
+  max-width: 400px;
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white; /* Changed text color to white */
+}
+
+.intro-text p {
+  font-size: 1.2rem;
+  color: white; /* Changed text color to white */
+}
+
+.intro-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-image {
+  max-width: 300px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.feature {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+ .card {
+  border-color: yellow; /* Changed border color of cards to yellow */
+   color: yellow; 
+ } 
+
+.quote-section {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-weight: 900;
+}
+
+.quote-section blockquote {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px; /* Add padding to create space around the content */
+  background-color: #8b4513; /* Saddle brown */
+  border-top: 2px solid #ffff00; /* Yellow */
+  border-radius: 10px; /* Add a border radius for rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow effect */
+}
+
+.footer p {
+  font-size: 1.5rem; /* Increase font size to 1.5rem */
+  color: white; /* White */
+  line-height: 1.6; /* Increase line height for better readability */
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+}
+
+.Btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #77530a,
+    #ffd277,
+    #77530a,
+    #77530a,
+    #ffd277,
+    #77530a
+  );
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.Btn::before {
+  position: absolute;
+  content: "SUBSCRIBE";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn:active {
+  transform: scale(0.95);
+}
+
